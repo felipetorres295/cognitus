@@ -1,0 +1,82 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: red;
+    display: grid;
+    gap: 1rem;
+}
+
+div {
+    background-color: rgb(106, 250, 10);
+}
+
+#generalcontainer {
+    padding: 1rem;
+    border: 0.5rem solid black;
+    height: 100vh;
+    display: grid;
+    gap: 1rem;
+
+grid-template:
+"nav aside header" 5rem
+"nav aside main"   auto
+"nav aside footer" 4rem /
+12rem 15rem auto;
+}
+
+.wrapper{
+    border-radius: 2rem;
+}
+
+header {
+    grid-area: header;
+    display: flex;
+    justify-content: left;
+    border: 1rem solid #000;
+}
+
+#pageImage {
+    height: 10rem;
+}
+
+header #pageImage {
+    height: 4rem;
+    width: 5rem;
+    border-radius: 50rem;
+}
+
+nav {
+    grid-area: nav;
+    border: 1rem solid rgb(245, 122, 122);
+    background-color:rgb(105, 253, 7);
+}
+
+.cocacola {
+    border: 0.2rem solid rgb(238, 71, 71);
+}
+
+.altura {
+    /* height: 3rem; */
+}
+
+.freefire {
+    border: 0.1rem solid rgb(235, 29, 29);
+    height: 1rem;
+}
+
+aside {
+    grid-area: aside;
+    border: 1rem solid rgb(243, 8, 8);
+}
+
+main{
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+    border: 1rem solid rgb(12, 11, 11);
+    /* height: 1rem;  */
+}
+
