@@ -48,12 +48,12 @@ header #pageImage {
 
 nav {
     grid-area: nav;
-    border: 1rem solid rgb(245, 122, 122);
+    border: 1rem solid rgb(8, 8, 8);
     background-color:rgb(105, 253, 7);
 }
 
 .cocacola {
-    border: 0.2rem solid rgb(238, 71, 71);
+    border: 0.2rem solid rgb(7, 7, 7);
 }
 
 .altura {
@@ -67,7 +67,7 @@ nav {
 
 aside {
     grid-area: aside;
-    border: 1rem solid rgb(243, 8, 8);
+    border: 1rem solid rgb(252, 8, 28);
 }
 
 main{
